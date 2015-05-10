@@ -2,7 +2,7 @@
 var assert = require('assert')
 
 var seneca = require('seneca')()
-      .use('..')
+      .use('..',{rate:0.20})
 
 describe('salestax-basic', function(){
 
@@ -11,7 +11,7 @@ describe('salestax-basic', function(){
       if(err) return fin(err);
 
       try {
-        assert.equal( 121, out.total )
+        assert.equal( 120, out.total )
         fin()
       }
       catch(e){ fin(e) }
