@@ -1,0 +1,25 @@
+{
+  "name": "salestax-basic",
+  "version": "1.0.0",
+  "description": "salestax-basic",
+  "main": "salestax-basic.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/senecajs/salestax-basic.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/senecajs/salestax-basic/issues"
+  },
+  "homepage": "https://github.com/senecajs/salestax-basic",
+  "dependencies": {
+    "seneca": "^0.6.1"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.4"
+  }
+}
