@@ -1,9 +1,9 @@
 "use strict";
 
 
-module.exports = function salestax() {
+module.exports = function salestax( options ) {
 
-  var rate = 0.21
+  var rate = options.rate
 
   this.add('role:salestax,cmd:calculate',calculate)
 
